@@ -1,0 +1,56 @@
+                            | #Computer_Science 3th
+                            | #20164660 jaejin kim
+0x000:                      | 	.pos 0
+0x000: 30f40002000000000000 | 	irmovq stack, %rsp    #initializing stack pointer
+0x00a: 805800000000000000   | 	call main	      #call main()
+0x013: 00                   | 	halt		      #program End
+                            | 
+0x018:                      | 	.align 8
+0x018: 0700000000000000     | start:  .quad 7		      #array to be sorted
+0x020: 0600000000000000     |         .quad 6
+0x028: 0500000000000000     |         .quad 5
+0x030: 0400000000000000     | 	.quad 4
+0x038: 0300000000000000     | 	.quad 3
+0x040: 0200000000000000     | 	.quad 2
+0x048: 0100000000000000     | 	.quad 1
+                            | 
+0x050: 0700000000000000     | count:	.quad 7 #length of array
+                            | 
+0x058:                      | main:
+0x058: 30f71800000000000000 | 	irmovq start, %rdi    #starting address of array
+0x062: 30f00000000000000000 | 	irmovq $0, %rax	      #switing action count
+0x06c: 506f5000000000000000 | 	mrmovq count, %rsi    #mov count($7) to %rsi
+0x076: 808000000000000000   | 	call sort	      #call sort()
+0x07f: 90                   | 	ret 
+0x080:                      | sort:
+0x080: 30f80800000000000000 | 	irmovq $8 , %r8       #using to calculate address values
+0x08a: 30f90100000000000000 | 	irmovq $1 , %r9	      #using i--,j++ 
+0x094:                      | for1:
+0x094: 30f71800000000000000 | 	irmovq start, %rdi    #starting address of array 
+0x09e: 6196                 | 	subq %r9, %rsi	      #i--
+0x0a0: 700c01000000000000   | 	jmp test1	      #i>0
+0x0a9:                      | forB1:	
+0x0a9: 30fa0000000000000000 | 	irmovq $0 , %r10      #j=0
+0x0b3:                      | for2:	
+0x0b3: 609a                 | 	addq %r9, %r10	      #j++
+0x0b5: 206b                 | 	rrmovq %rsi, %r11     #i=count
+0x0b7: 61ab                 | 	subq %r10,%r11        #i-j
+0x0b9: 729400000000000000   | 	jl for1               #if j>=i jump for1
+0x0c2:                      | forB2:
+0x0c2: 50c70800000000000000 | 	mrmovq $8(%rdi), %r12 #start[i+1]
+0x0cc: 50b70000000000000000 | 	mrmovq (%rdi), %r11   #start[i]
+0x0d6: 61cb                 | 	subq %r12,%r11	      #start[i] - start[i+1]	
+0x0d8: 720101000000000000   | 	jl forend2	      #if start[i] <start[i+1] jump forEnd2
+0x0e1: 50b70000000000000000 | 	mrmovq (%rdi), %r11   #r11 = start[i]
+0x0eb: 40c70000000000000000 | 	rmmovq %r12, (%rdi)   #start[i]=r12(start[i+1])
+0x0f5: 40b70800000000000000 | 	rmmovq %r11, $8(%rdi) #start[i+1]=r11(start[i]) 
+0x0ff: 6090                 | 	addq %r9, %rax	      #count switching
+0x101:                      | forend2:
+0x101: 6087                 | 	addq %r8,%rdi         #i+8
+0x103: 70b300000000000000   | 	jmp for2	      #continue for2
+0x10c:                      | test1:
+0x10c: 76a900000000000000   | 	jg forB1	      #if i>0 jump forB1
+0x115: 90                   | 	ret
+                            | 
+0x200:                      | 	.pos 0x200
+0x200:                      | stack:

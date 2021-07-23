@@ -1,0 +1,67 @@
+홈페이지(로그인)
+회원가입(identity, name,password)
+로그인(identity,password)
+insert into member values('admin','1234','admin','admin@gmail.com','회사이름','database','01012345678');
+insert into member values('ghost','ghost','ghost','ghost','ghost','ghost','ghost');
+insert into member values('김재진','pass','김재진','porlar@naver.com','태어난곳','수원','01091796900');
+insert into member values('김재혁','pass','김재혁','wogur12@naver.com','태어난곳','수원','0108856878');
+insert into member values('vip','pass','vip','vip@gmail.com','좋아하는곳','집','01001010101');
+
+
+SELECT * FROM ALL_TAB_COLUMNS WHERE TABLE_NAME = 'book';
+INSERT INTO book VALUES('Deep Learning From Scratch',21600,100,'9788968484636');
+INSERT INTO book VALUES('The C++ Programming Language (Fourth Edition) ',58500,100,'9788960778092');
+INSERT INTO book VALUES('Tripful 트립풀 제주 - 우도, 비양도, 마라도, 가파도',14400,100,'9791185831978');
+INSERT INTO book VALUES('Tripful 트립풀 방콕 - 아유타야, 깐짜나부리, 암파와 수상시장',14400,100,'9791185831893');
+INSERT INTO book VALUES('Tripful 트립풀 하노이 - 사파, 닌빈, 깟바, 하이퐁',14400,100,'9791185831862');
+INSERT INTO book VALUES('Tripful 트립풀 블라디보스톡 - 루스키섬, 샤마라, 우수리스크, 하바롭스크',14400,100,'9791185831800');
+INSERT INTO book VALUES('공정하다는 착각',16200,100,'9791164136452');
+INSERT INTO book VALUES('정의란 무엇인가',13500,100,'9788937834790');
+INSERT INTO book VALUES('방구석 미술관',15120,100,'9788968331862');
+INSERT INTO book VALUES('방구석 미술관 2 : 한국',16650,100,'9788968332845');
+INSERT INTO book VALUES('허락 없는 외출',14400,100,'9791196484163');
+INSERT INTO book VALUES('일인칭 단수',13050,10,'9788954675987');
+INSERT INTO book VALUES('강철의 연금술사 완전판 1',8550,10,'9788925892894');
+INSERT INTO book VALUES('강철의 연금술사 완전판 2',8550,10,'9788925892917');
+INSERT INTO book VALUES('강철의 연금술사 완전판 3',8550,10,'9788925892924');
+INSERT INTO book VALUES('강철의 연금술사 완전판 4',8550,10,'9788925894065');
+INSERT INTO book VALUES('강철의 연금술사 완전판 5',8550,10,'9788925894072');
+INSERT INTO book VALUES('강철의 연금술사 완전판 6',8550,10,'9788925895451');
+INSERT INTO book VALUES('강철의 연금술사 완전판 7',8550,10,'9788925897868');
+INSERT INTO book VALUES('강철의 연금술사 완전판 8',8550,10,'9788925898551');
+INSERT INTO book VALUES('강철의 연금술사 완전판 9',8550,10,'9788925898568');
+INSERT INTO book VALUES('강철의 연금술사 완전판 10',8550,10,'9788925899411');
+INSERT INTO book VALUES('강철의 연금술사 완전판 11',8550,10,'9788925899428');
+INSERT INTO book VALUES('강철의 연금술사 완전판 12',8550,10,'9788968310478');
+INSERT INTO book VALUES('강철의 연금술사 완전판 13',8550,10,'9788968310485');
+INSERT INTO book VALUES('강철의 연금술사 완전판 14',8550,10,'9788968312878');
+INSERT INTO book VALUES('강철의 연금술사 완전판 15',8550,10,'9788968312885');
+INSERT INTO book VALUES('강철의 연금술사 완전판 16',8550,10,'9788968312892');
+INSERT INTO book VALUES('강철의 연금술사 완전판 17',8550,10,'9788968312908');
+INSERT INTO book VALUES('강철의 연금술사 완전판 18',8550,10,'9788968316807');
+INSERT INTO book VALUES('죽음에 관하여 스페셜 에디션 1',13500,20,'9791162790120');
+INSERT INTO book VALUES('죽음에 관하여 스페셜 에디션 2',13500,20,'9791162790137');
+INSERT INTO book VALUES('죽음에 관하여 스페셜 에디션 3',13500,20,'9791162790229');
+
+commit;
+select count(*) from book;
+
+
+drop  sequence B_N;
+create sequence B_N
+	increment by 1
+	start with 1
+   	minvalue 1
+	nocache;
+
+drop  sequence P_N;
+create sequence P_N
+	increment by 1
+	start with 1
+   	minvalue 1
+	nocache;
+update purchase set identity = 'empty' where identity = 'test';
+update purchase set identity = 'test' where identity = 'empty';
+
+
+

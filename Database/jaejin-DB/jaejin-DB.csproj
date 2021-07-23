@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9E6F97A8-1B16-4DEA-92FD-3C106AA6CB04}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>jaejin_DB</RootNamespace>
+    <AssemblyName>jaejin-DB</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="개별판매이력조회.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="개별판매이력조회.Designer.cs">
+      <DependentUpon>개별판매이력조회.cs</DependentUpon>
+    </Compile>
+    <Compile Include="개인정보수정.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="개인정보수정.Designer.cs">
+      <DependentUpon>개인정보수정.cs</DependentUpon>
+    </Compile>
+    <Compile Include="결제.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="결제.Designer.cs">
+      <DependentUpon>결제.cs</DependentUpon>
+    </Compile>
+    <Compile Include="관리자.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="관리자.Designer.cs">
+      <DependentUpon>관리자.cs</DependentUpon>
+    </Compile>
+    <Compile Include="바로주문.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="바로주문.Designer.cs">
+      <DependentUpon>바로주문.cs</DependentUpon>
+    </Compile>
+    <Compile Include="배송지정보.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="배송지정보.Designer.cs">
+      <DependentUpon>배송지정보.cs</DependentUpon>
+    </Compile>
+    <Compile Include="메인.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="메인.Designer.cs">
+      <DependentUpon>메인.cs</DependentUpon>
+    </Compile>
+    <Compile Include="비밀번호변경.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="비밀번호변경.Designer.cs">
+      <DependentUpon>비밀번호변경.cs</DependentUpon>
+    </Compile>
+    <Compile Include="장바구니.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="장바구니.Designer.cs">
+      <DependentUpon>장바구니.cs</DependentUpon>
+    </Compile>
+    <Compile Include="장바구니담기.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="장바구니담기.Designer.cs">
+      <DependentUpon>장바구니담기.cs</DependentUpon>
+    </Compile>
+    <Compile Include="주문정보.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="주문정보.Designer.cs">
+      <DependentUpon>주문정보.cs</DependentUpon>
+    </Compile>
+    <Compile Include="카드정보.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="카드정보.Designer.cs">
+      <DependentUpon>카드정보.cs</DependentUpon>
+    </Compile>
+    <Compile Include="회원가입.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="회원가입.Designer.cs">
+      <DependentUpon>회원가입.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="회원정보.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="회원정보.Designer.cs">
+      <DependentUpon>회원정보.cs</DependentUpon>
+    </Compile>
+    <Compile Include="회원탈퇴.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="회원탈퇴.Designer.cs">
+      <DependentUpon>회원탈퇴.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="개별판매이력조회.resx">
+      <DependentUpon>개별판매이력조회.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="개인정보수정.resx">
+      <DependentUpon>개인정보수정.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="결제.resx">
+      <DependentUpon>결제.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="관리자.resx">
+      <DependentUpon>관리자.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="메인.resx">
+      <DependentUpon>메인.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="바로주문.resx">
+      <DependentUpon>바로주문.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="배송지정보.resx">
+      <DependentUpon>배송지정보.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="비밀번호변경.resx">
+      <DependentUpon>비밀번호변경.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="장바구니.resx">
+      <DependentUpon>장바구니.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="장바구니담기.resx">
+      <DependentUpon>장바구니담기.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="주문정보.resx">
+      <DependentUpon>주문정보.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="카드정보.resx">
+      <DependentUpon>카드정보.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="회원가입.resx">
+      <DependentUpon>회원가입.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="회원정보.resx">
+      <DependentUpon>회원정보.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="회원탈퇴.resx">
+      <DependentUpon>회원탈퇴.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="20164660_김재진_소스코드.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

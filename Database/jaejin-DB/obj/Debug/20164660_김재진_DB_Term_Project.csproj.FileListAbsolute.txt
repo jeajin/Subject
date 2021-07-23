@@ -1,0 +1,77 @@
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\bin\Debug\jaejin-DB.exe.config
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\bin\Debug\jaejin-DB.exe
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\bin\Debug\jaejin-DB.pdb
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\bin\Debug\System.Data.OleDb.dll
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\bin\Debug\System.Data.OleDb.xml
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\jaejin_DB.Properties.Resources.resources
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\jaejin_DB.결제.resources
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\jaejin_DB.관리자.resources
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\jaejin_DB.메인.resources
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\jaejin_DB.바로주문.resources
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\jaejin_DB.배송지정보.resources
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\jaejin_DB.비밀번호변경.resources
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\jaejin_DB.장바구니.resources
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\jaejin_DB.장바구니담기.resources
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\jaejin_DB.주문정보.resources
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\jaejin_DB.카드정보.resources
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\jaejin_DB.회원가입.resources
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\jaejin_DB.회원정보.resources
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\jaejin_DB.회원탈퇴.resources
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\20164660_김재진_DB_Term_Project.csproj.GenerateResource.cache
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\20164660_김재진_DB_Term_Project.csproj.CoreCompileInputs.cache
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\20164660_김재진_DB_Term_Project.csproj.CopyComplete
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\jaejin-DB.exe
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\jaejin-DB.pdb
+C:\Users\ZIN\Documents\GitHub\study\database_3.2\★★★★★★★★★★★★★\jaejin-DB\obj\Debug\20164660_김재진_DB_Term_Project.csprojAssemblyReference.cache
+C:\Users\ZIN\Desktop\jaejin-DB\bin\Debug\jaejin-DB.exe.config
+C:\Users\ZIN\Desktop\jaejin-DB\bin\Debug\jaejin-DB.exe
+C:\Users\ZIN\Desktop\jaejin-DB\bin\Debug\jaejin-DB.pdb
+C:\Users\ZIN\Desktop\jaejin-DB\bin\Debug\System.Data.OleDb.dll
+C:\Users\ZIN\Desktop\jaejin-DB\bin\Debug\System.Data.OleDb.xml
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\20164660_김재진_DB_Term_Project.csprojAssemblyReference.cache
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\jaejin_DB.Properties.Resources.resources
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\jaejin_DB.결제.resources
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\jaejin_DB.관리자.resources
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\jaejin_DB.메인.resources
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\jaejin_DB.바로주문.resources
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\jaejin_DB.배송지정보.resources
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\jaejin_DB.장바구니.resources
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\jaejin_DB.장바구니담기.resources
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\jaejin_DB.주문정보.resources
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\jaejin_DB.카드정보.resources
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\jaejin_DB.회원가입.resources
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\jaejin_DB.회원정보.resources
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\jaejin_DB.회원탈퇴.resources
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\20164660_김재진_DB_Term_Project.csproj.GenerateResource.cache
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\20164660_김재진_DB_Term_Project.csproj.CoreCompileInputs.cache
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\20164660_김재진_DB_Term_Project.csproj.CopyComplete
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\jaejin-DB.exe
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\jaejin-DB.pdb
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\jaejin_DB.개인정보수정.resources
+C:\Users\ZIN\Desktop\jaejin-DB\obj\Debug\jaejin_DB.개별판매이력조회.resources
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\bin\Debug\jaejin-DB.exe.config
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\bin\Debug\jaejin-DB.exe
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\bin\Debug\jaejin-DB.pdb
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\bin\Debug\System.Data.OleDb.dll
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\bin\Debug\System.Data.OleDb.xml
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\20164660_김재진_DB_Term_Project.csprojAssemblyReference.cache
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\jaejin_DB.Properties.Resources.resources
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\jaejin_DB.개별판매이력조회.resources
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\jaejin_DB.결제.resources
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\jaejin_DB.관리자.resources
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\jaejin_DB.메인.resources
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\jaejin_DB.바로주문.resources
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\jaejin_DB.배송지정보.resources
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\jaejin_DB.개인정보수정.resources
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\jaejin_DB.장바구니.resources
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\jaejin_DB.장바구니담기.resources
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\jaejin_DB.주문정보.resources
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\jaejin_DB.카드정보.resources
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\jaejin_DB.회원가입.resources
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\jaejin_DB.회원정보.resources
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\jaejin_DB.회원탈퇴.resources
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\20164660_김재진_DB_Term_Project.csproj.GenerateResource.cache
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\20164660_김재진_DB_Term_Project.csproj.CoreCompileInputs.cache
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\20164660_김재진_DB_Term_Project.csproj.CopyComplete
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\jaejin-DB.exe
+C:\Users\zin\Desktop\새 폴더 (4)\jaejin-DB\obj\Debug\jaejin-DB.pdb

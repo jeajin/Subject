@@ -1,0 +1,5 @@
+j j 1000
+jj jj 2000
+jjj jjj 2000 
+jjjj jjjj 3000
+jjjjj jjjjj 2500

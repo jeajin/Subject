@@ -1,0 +1,62 @@
+
+#Computer_Science 3th
+#20164660 jaejin kim
+	.pos 0
+	irmovq stack, %rsp    #initializing stack pointer
+	call main	      #call main()
+	halt		      #program End
+
+	.align 8
+start:  .quad 7		      #array to be sorted
+        .quad 6
+        .quad 5
+	.quad 4
+	.quad 3
+	.quad 2
+	.quad 1
+
+count:	.quad 7               #length of array
+
+main:
+	irmovq start, %rdi    #main,  starting address of array
+	irmovq $0, %rax	      #switing action count
+	mrmovq count, %rsi    #mov count($7) to %rsi
+	call sort	      #call sort()
+	ret 
+sort:
+	irmovq $8 , %r8       #sort,  using to calculate address values
+	irmovq $1 , %r9	      #using i--,j++ 
+	jmp for1
+forB1:	
+	irmovq $0 , %r10      #forB1,  j=0
+for2:	
+	addq %r9, %r10	      #for2,  j++
+	rrmovq %rsi, %r11     #i=count
+	subq %r10,%r11        #i-j
+	jge forB2               #if j>=i jump for1
+for1:
+	irmovq start, %rdi    #for1,  starting address of array 
+	subq %r9, %rsi	      #i--
+	jmp test1	      #i>0
+
+
+forB2:
+	mrmovq $8(%rdi), %r12 #forB2,  start[i+1]
+	mrmovq (%rdi), %r11   #start[i]
+	subq %r12,%r11	      #start[i] - start[i+1]	
+	jge forend2	      #if start[i] <start[i+1] jump forEnd2
+	addq %r8,%rdi         #forend2,  i+8
+	jmp for2	      #continue for2	
+forend2:
+	mrmovq (%rdi), %r11   #r11 = start[i]
+	rmmovq %r12, (%rdi)   #start[i]=r12(start[i+1])
+	rmmovq %r11, $8(%rdi) #start[i+1]=r11(start[i]) 
+	addq %r9, %rax	      #count switching
+	addq %r8,%rdi         #forend2,  i+8
+	jmp for2	      #continue for2
+test1:
+	jg forB1	      #test1,  if i>0 jump forB1
+	ret
+
+	.pos 0x200
+stack:

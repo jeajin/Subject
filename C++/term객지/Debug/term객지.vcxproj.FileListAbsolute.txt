@@ -1,0 +1,2 @@
+C:\Users\ZIN\Documents\GitHub\study\C++\term객지\Debug\term객지.exe
+C:\Users\ZIN\Documents\GitHub\study\C++\term객지\Debug\term객지.pdb
